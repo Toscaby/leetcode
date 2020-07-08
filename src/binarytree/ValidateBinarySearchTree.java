@@ -73,7 +73,7 @@ public class ValidateBinarySearchTree {
   }
 
   public boolean isValidBST3(TreeNode root) {
-    return traverse2(root);
+    return traverse(root, root.val, root.val);
   }
 
   // #2 递归，利用搜索树性质
