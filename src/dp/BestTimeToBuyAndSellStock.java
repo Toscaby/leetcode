@@ -32,7 +32,7 @@ package dp;
 
 // 一买一卖记作一次操作 所以只有买入时减少j
 
-// 201 只能操作一次，所以j的最大值为1。
+// 121 只能操作一次，所以j的最大值为1。
 public class BestTimeToBuyAndSellStock {
   public int maxProfit(int[] prices) {
     // dp 方程
